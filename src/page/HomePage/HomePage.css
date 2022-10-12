@@ -1,0 +1,33 @@
+.LeftSideBar {
+    height: 100%;
+    width: 250px;
+    padding-bottom: 1px;
+    background-color: #202d3f;
+    display: flex;
+    align-items: center;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.HomePageContent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100% - 51px);
+}
+
+.ContentHome {
+    background-color: #e6e8ea;
+    width: calc(100% - 250px);
+}
+
+.CreateAnOrder button {
+    width: 129px;
+    height: 36px;
+    cursor: pointer;
+
+}

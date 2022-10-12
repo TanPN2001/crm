@@ -1,0 +1,46 @@
+.WrapperSideBar {
+    background-color: #202d3f;
+    width: 250px;
+}
+
+.SelectFeature {
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    height: 47px;
+    padding: 12px 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.OrdersSideBarTxt {
+    margin: 0 10px;
+    width: 100%;
+    left: 0;
+}
+
+.OrdersSideBar {
+    height: 300px;
+}
+
+.MenuParent {
+
+}
+
+.UlOrderSideBar {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.UlOrderSideBar li {
+    
+    margin: 12px 17px;
+    padding-left: 38px;
+
+    cursor: pointer;
+}

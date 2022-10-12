@@ -1,0 +1,115 @@
+.WrapperOrderList {
+    font-size: 14px;
+    margin: 24px 32px;
+}
+
+.TableOrderList {
+    left: 10px;
+    background-color: #e6e8ea;
+    width: 100%;
+    font-size: 14px;
+}
+
+.TitleOrderList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ChoiceTypeScreenList {
+    display: flex;
+    flex-direction: row;
+}
+
+.TypeScreenOrderList p {
+    font-size: 28px;
+    margin: 0;
+    top: 0;
+}
+
+.ChoiceingTypeScreenList {
+    margin: 0 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* .ChoiceingTypeScreenList :hover {
+    background-color: blueviolet;
+} */
+
+.ButChoiceingTypeScreenList {
+    margin: 0 5px;
+    align-items: center;
+}
+
+.ChoiceingTypeScreenList :hover {
+    color: blueviolet;
+}
+
+.MenuSeclectionQUick {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.ContainerOrderList {
+    border: 1px solid;
+}
+
+.SeclectionQUick {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.MenuFillterDetail {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    margin: 0 20px 20px 20px;
+    align-items: center;
+}
+
+.MenuFillterDetail Button {
+    height: 38px;
+    width: 100px;
+    cursor: pointer;
+    border: 1px;
+}
+
+.InputMenuFillterDetail {
+}
+
+.WrapperStatusMenuFillterDetail:hover .dropdown-content {
+    display: block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+
+    flex-direction: row;
+}
+
+.dropdown-content input {
+    margin-right: 5px;
+    align-items: center;
+}

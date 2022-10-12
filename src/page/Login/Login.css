@@ -1,0 +1,20 @@
+.WraperLogin {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg');
+    display: block;
+    align-items: center;
+}
+
+.ContainerLogin {
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.FormLogin {
+    width: 400px;
+}

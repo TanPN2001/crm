@@ -1,0 +1,149 @@
+.WrapperHeader {
+    height: 51px;
+    width: 100%;
+    border-bottom: 1px;
+
+    display: flex;
+    flex-direction: row;
+
+    border-bottom: solid 1px #212b35;
+}
+
+.LogoHeader {
+    height: 100%;
+    width: 250px;
+    padding-left: 16px;
+    padding-bottom: 1px;
+    background-color: #202d3f;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 16px;
+    padding-right: 8px;
+
+}
+
+.BsEyeLogoHeader {
+    margin-top: 4px;
+    margin-right: 16px;
+}
+
+.ImgLogoHeader {
+    height: 36px;
+    max-width: 143px;
+    object-fit: cover;
+}
+
+.SearchHeader {
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+}
+
+.InputHeader {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
+    height: 30px;
+    padding: 5px 10px;
+    width: 719px;
+}
+
+.InputHeader GoSearch {
+    color: aliceblue;
+}
+
+.InputHeader input {
+   border: none;
+    width: 100%;
+    outline: none;
+    margin: 0 10px;
+    height: 100%;
+}
+
+.QuickShot {
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+/* .QuickShot :hover {
+    background-color: red !important;
+    color: blue;
+} */
+
+
+.HelpHeader {
+}
+
+.CommentsHeader {
+}
+
+.ProfileHeader {
+width: 200px;
+}
+
+.IconHeader {
+    margin-right: 10px;
+}
+
+.ImgProfileHeader {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.IconProfileHeaderSelect {
+    align-items: center;
+    margin-left: 10px;
+    word-wrap: normal;
+}
+
+.PopUpIconProfileHeaderSelect {
+    width: 100px;
+    height: 150px;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.ButIconProfileHeaderSelect {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.ProfileHeaderSelect {
+    word-wrap: none;
+}
+
+.NotifyHeader {
+    position: relative;
+
+}
+
+.NumOfNotyHeader {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    left: -24px;
+    top: -8px;
+    background-color: red;
+    border-radius: 50%
+}
